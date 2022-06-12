@@ -1,0 +1,126 @@
+:root {
+   /* Fonts */
+    --logo-font-family: 'Raleway', sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
+   /* Colors */
+    --main-dark-color: #000000;
+    --main-light-color: #FFFFFF;
+    --current-color: #2196F3;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --background-dark-color: #2F303A;
+    --background-light-color: #E5E5E5;
+    --background-middle-color: #F5F4FA;
+}
+
+
+body {
+    font-family: var(--logo-font-family);
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    font-weight: 500;
+
+    color: var(--main-color)
+}
+
+/* Common Styles */
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.section {
+    background-color: var(--main-light-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67; 
+    color: var(--main-color);
+}
+
+.current {
+color: var(--current-color);
+font-family: var(--logo-font-family);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Header */
+.header {
+    background-color: var(--main-light-color);
+}
+
+.site-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-dark-color);
+}
+
+.site-nav {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-color);
+}
+
+.contact-list {}
+
+.contact-item {}
+
+.contact-link {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-color);
+}
+
+/* Hero */
+.section {background-color: var(--background-dark-color)}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--main-light-color)
+}
+
+.hero-button {
+    color: var(--main-light-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    background-color: var(--current-color);
+    border-radius: 4px;
+}
